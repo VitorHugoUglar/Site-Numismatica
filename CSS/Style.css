@@ -112,3 +112,27 @@ footer {
     object-fit: cover; /* Cobre o espaço disponível, mantendo a proporção */
     margin-bottom: 15px; /* Espaçamento inferior */
 }
+
+
+.carrossel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.imagens {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.imagens img {
+    width: 100%; /* Faz com que a imagem ocupe toda a largura do carrossel */
+    height: ; /* Define uma altura fixa para as imagens */
+    object-fit: cover; /* Faz com que a imagem cubra a área sem distorcer */
+    display: none;
+}
+
+.imagens img.ativo {
+    display: block;
+}

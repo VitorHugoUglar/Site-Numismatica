@@ -30,3 +30,6 @@ function validateForm(event) {
 
 // Adiciona o evento de submissão ao formulário
 document.querySelector('form').addEventListener('submit', validateForm);
+
+
+
